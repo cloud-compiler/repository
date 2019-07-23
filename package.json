@@ -1,0 +1,31 @@
+{
+  "name": "@cloud-compiler/repository",
+  "version": "1.0.0",
+  "description": "the repository of cloud compiler",
+  "scripts": {
+    "start": "cc start -p 9047 && pm2 logs",
+    "restart": "cc restart",
+    "stop": "cc stop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloud-compiler/repository.git"
+  },
+  "keywords": [
+    "npm",
+    "nppm",
+    "nilppm",
+    "node",
+    "package",
+    "manager"
+  ],
+  "author": "cevio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloud-compiler/repository/issues"
+  },
+  "homepage": "https://github.com/cloud-compiler/repository#readme",
+  "dependencies": {
+    "@cloud-compiler/sandbox": "^1.0.5"
+  }
+}
