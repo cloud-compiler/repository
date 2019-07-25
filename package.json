@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/cloud-compiler/repository#readme",
   "dependencies": {
-    "@cloud-compiler/sandbox": "^1.0.9"
+    "@cloud-compiler/sandbox": "^1.0.10"
   }
 }
